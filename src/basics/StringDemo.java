@@ -1,5 +1,7 @@
 package basics;
 
+import java.util.Scanner;
+
 public class StringDemo {
 
 	public static void main(String[] args) {
@@ -37,6 +39,15 @@ public class StringDemo {
 			System.out.println("the String doesn't contains 'work' word");
 		}
 		
+		System.out.println("*************************");
+		
+		String f ;
+		String g ;
+		
+		Scanner s = new Scanner(System.in);
+		f = s.next();
+		g = s.next();		
+		System.out.println(f+g);
 
 	}
 
